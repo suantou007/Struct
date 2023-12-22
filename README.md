@@ -1,2 +1,2 @@
 # Struct
-trees and minqueue
+trees and MinPriorityqueue
