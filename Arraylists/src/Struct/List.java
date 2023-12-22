@@ -112,3 +112,16 @@ public interface List<T> {
 	 * Searches a list for searchElement. Begins the search with the element marked by the cursor. Moves the cursor through the list until either searchElement is found (returns true) or the end of the list is reached without finding searchElement (returns false). Leaves the cursor at the last element visited during the search.
 	 */
 }
+public class ListException extends Exception {
+    public ListException() {
+        super();
+    }
+
+    public ListException(String message) {
+        super(message);
+    }
+
+    public ListException(String message, Throwable cause) {
+        super(message, cause);
+    }
+}
